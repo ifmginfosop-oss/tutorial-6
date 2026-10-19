@@ -948,6 +948,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_ovbra")
 
 [node name="Jogo" type="Node2D"]
+position = Vector2(1, 0)
 
 [node name="Mundo" type="Node2D" parent="."]
 
@@ -971,7 +972,7 @@ tile_set = SubResource("TileSet_cnq1p")
 position = Vector2(41, 24)
 
 [node name="Alvo" parent="." instance=ExtResource("3_45s2r")]
-position = Vector2(487, 56)
+position = Vector2(456, 164)
 
 [node name="tutorial" type="Label" parent="."]
 offset_left = 56.0
